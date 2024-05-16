@@ -1,41 +1,26 @@
-## Hospital Simulation - README
+# Hospital Simulation
 
-This code simulates a basic hospital user management system. It allows users to register as either a doctor or a patient, login, and access limited functionalities based on their role.
+This is a simple Java application for simulating basic functionalities of a hospital management system. It allows users to register as either doctors or patients, login, and access services based on their roles.
 
-**Features:**
+## Features
 
-* User Registration (Doctor or Patient)
-* User Login
-* Role-based User Menu (Doctor vs. Patient)
-* Doctor can view their availability schedule (empty by default)
-* Patient can view their account balance
-* User can charge their account (functionality not implemented)
+- **User Registration**: Users can register as either doctors or patients by providing a username and password.
+- **Login**: Registered users can login using their credentials.
+- **Doctor Functions**: Doctors can view their schedule, add availability, view balance, and charge their account.
+- **Patient Functions**: Patients can book appointments, view balance, and charge their account.
 
-**Running the Simulation:**
+## Running the Application
 
-1. Compile the Java code using a Java compiler (e.g., javac HospitalSimulation.java).
-2. Run the compiled class using the command line: `java HospitalSimulation`
+1. Ensure you have Java installed on your system.
+2. Compile the `HospitalSimulation.java` file using a Java compiler.
+3. Run the compiled Java class.
+4. Follow the on-screen prompts to register, login, and access services.
 
-**User Interaction:**
+## Usage
 
-The program presents a menu with three options:
+- When registering, you will be prompted to choose whether you are registering as a doctor or a patient.
+- You can login as a user or a doctor separately using your credentials.
+- Once logged in, follow the on-screen prompts to access different services based on your role.
 
-1. Login: Enter username and password to login as an existing user.
-2. Register: Create a new user account (doctor or patient).
-3. Exit: Terminate the program.
 
-Based on the user's choice, the program guides them through the login or registration process and displays a role-specific menu upon successful login.
-
-**Note:**
-
-* The `chargeAccount` functionality is not implemented yet.
-* Doctors cannot add availability slots yet (functionality is included but not implemented).
-
-**Further Development:**
-
-* Implement the `chargeAccount` functionality for both doctors and patients.
-* Allow doctors to add availability slots to their schedule.
-* Integrate appointment booking functionality for patients.
-* Enhance the user interface with more informative messages and error handling.
-
-This code provides a basic framework for a hospital user management system simulation. You can extend it to include additional functionalities and features.
+Feel free to customize the README according to your project's specific details and requirements.
